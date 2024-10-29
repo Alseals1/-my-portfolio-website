@@ -1,3 +1,29 @@
+# My Portfolio Website
+
+Welcome to my portfolio website! This project showcases my skills and projects in software development, especially in React, AWS, and Tailwind CSS.
+
+## Features
+
+- Dark-themed design with responsive layout
+- Sections for projects, contact information, and an introduction
+- Smooth scrolling navigation
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- GitHub Pages (for hosting)
+- Font Awesome (for icons)
+
+## Getting Started
+
+To get a copy of this project up and running on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Alseals1/-my-portfolio-website.git
+   ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
