@@ -27,6 +27,9 @@
 .App-link {
   color: #61dafb;
 }
+.text-stroke {
+  -webkit-text-stroke: 1px black; /* Change 1px and black to adjust width and color */
+}
 
 @keyframes App-logo-spin {
   from {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HomeSection from "./Home/HomeSection";
-import Projects from "./Projects";
+import Projects from "./Projects/ProjectsSection";
 import Resume from "./Resume";
 import Contact from "./Contact";
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             href={`#${section.id}`}
             className={`${
               activeSection === section.id
-                ? "text-black"
+                ? "text-red-500"
                 : "text-textColorSecondary"
             } hover:text-red-900 font-semibold `}
           >
