@@ -11,12 +11,14 @@ export const ProjectList = () => {
   }, []);
 
   return (
-    <div className="flex overflow-x-auto mx-32 py-4 ">
-      {projects.map((project) => (
-        <div key={project.id} className="flex-shrink-0">
-          <ProjectCard project={project} />
-        </div>
-      ))}
+    <div className="overflow-x-auto max-w-full p-4">
+      <div className="flex space-x-4">
+        {projects.map((project) => (
+          <div key={project.id} className="w-80 flex-shrink-0">
+            <ProjectCard project={project} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

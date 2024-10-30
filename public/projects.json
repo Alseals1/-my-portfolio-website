@@ -1,34 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Project One",
-    "logo": "/path-to-logo1.jpg",
+    "title": "Static Website Host",
+    "logo": "/AWSImage.png",
     "shortDescription": "This is the description for project one...",
     "fullDescription": "Here is the full description of Project One...",
     "images": ["/img1.jpg", "/img2.jpg"]
   },
   {
     "id": 2,
-    "title": "Project Two",
-    "logo": "/path-to-logo2.jpg",
+    "title": "Cryptopedia IOS App",
+    "logo": "/iosdev.png",
     "shortDescription": "This is the description for project two...",
     "fullDescription": "Here is the full description of Project Two...",
     "images": ["/img3.jpg", "/img4.jpg"]
   },
   {
     "id": 3,
-    "title": "Project Three",
-    "logo": "/path-to-logo3.jpg",
+    "title": "Serverless To-Do",
+    "logo": "/serverlessImage.png",
     "shortDescription": "This is the description for project Three...",
     "fullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
   },
   {
     "id": 4,
-    "title": "Project Three",
-    "logo": "/path-to-logo3.jpg",
+    "title": "Movement IOS App",
+    "logo": "/movementImg.png",
     "shortDescription": "This is the description for project Three...",
     "fullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
+  },
+  {
+    "id": 5,
+    "title": "Full Stack Website",
+    "logo": "/FSImage.png",
+    "shortDescription": "An overview of the role of a full stack developer.",
+    "fullDescription": "A full stack developer is a computer professional who builds and maintains both the front-end and back-end of a website or application. Front-end: The parts of a website that users see and interact with. Back-end: The behind-the-scenes data storage and processing. Full stack developers are responsible for the entire software lifecycle, from user interface design to database management. They can create entire web applications and ensure that all software works together seamlessly.",
+    "images": ["/img7.jpg", "/img8.jpg"]
   }
 ]

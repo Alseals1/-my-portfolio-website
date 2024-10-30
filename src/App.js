@@ -2,10 +2,7 @@ import "./App.css";
 import React from "react";
 import SiteMenu from "./sections/SiteMenu";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProjectsSection from "./sections/Projects/ProjectsSection";
 import ProjectDetail from "./sections/Projects/ProjectDetail";
-
-import Navbar from "./sections/SiteMenu";
 
 function App() {
   return (

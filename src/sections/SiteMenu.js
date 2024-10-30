@@ -53,20 +53,20 @@ const Navbar = () => {
       </nav>
 
       {/* Main Content Area */}
-      <div className="ml-20 w-full p-8">
-        <section id="home" className="min-h-screen">
+      <div className="ml-20 w-full pl-8">
+        <section id="home">
           <HomeSection />
         </section>
 
-        <section id="projects" className="min-h-screen">
+        <section id="projects">
           <Projects />
         </section>
 
-        <section id="resume" className="min-h-screen">
+        <section id="resume">
           <Resume />
         </section>
 
-        <section id="contact" className="min-h-screen">
+        <section id="contact">
           <Contact />
         </section>
       </div>
