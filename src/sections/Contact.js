@@ -2,17 +2,20 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className=" text-gray-200 item-center" id="contact mb-8">
+    <div className=" text-gray-200 bg-red-950 item-center" id="contact mb-8">
       <div
         className="flex flex-col items-center text-gray-200 p-8"
         id="contact"
       >
-        <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
+        <div className="text-4xl font-bold mb-4">Let’s Connect!</div>
         <p className="text-lg mb-6">I'd love to hear from you!</p>
 
-        <div className="flex flex-row space-x-6">
-          <a href="tel:+1234567890" className="flex items-center space-x-2 ">
-            <span className="bg-red-500 p-2 rounded-full">
+        <div className="flex flex-row space-x-6 ">
+          <a
+            href="tel:+1234567890"
+            className="flex items-center space-x-2 transition duration-300 transform hover:scale-105"
+          >
+            <span className="bg-black p-2 rounded-full">
               <i className="fas fa-phone"></i>
             </span>
             <span>Phone: 205 394 7003</span>
@@ -22,7 +25,7 @@ const Contact = () => {
             href="mailto:1seals.alandis@gmail.com"
             className="flex items-center space-x-2 transition duration-300 transform hover:scale-105"
           >
-            <p className="bg-red-500 p-2 rounded-full">
+            <p className="bg-black p-2 rounded-full">
               <i className="fas fa-envelope"></i>
             </p>
             <span>Email: 1seals.alandis@gmail.com</span>
@@ -32,9 +35,9 @@ const Contact = () => {
             href="https://www.linkedin.com/in/alandisseals/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center"
+            className="flex items-center transition duration-300 transform hover:scale-105"
           >
-            <span className="bg-red-500 p-2 rounded-full">
+            <span className="bg-black p-2 rounded-full">
               <i className="fab fa-linkedin"></i>
             </span>
             <span> LinkedIn</span>
@@ -44,9 +47,9 @@ const Contact = () => {
             href="https://github.com/Alseals1"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 "
+            className="flex items-center space-x-2  transition duration-300 transform hover:scale-105"
           >
-            <span className="bg-red-500 p-2 rounded-full">
+            <span className="bg-black p-2 rounded-full">
               <i className="fab fa-github"></i>
             </span>
             <span>GitHub</span>

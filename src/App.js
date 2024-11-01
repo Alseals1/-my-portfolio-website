@@ -6,17 +6,15 @@ import ProjectDetail from "./sections/Projects/ProjectDetail";
 
 function App() {
   return (
-    <div className="App bg-black">
+    <div className="App bg-black w-full">
       <Router>
-        <div className="">
-          <Routes>
-            <Route
-              path="/projects/project/:projectId"
-              element={<ProjectDetail />}
-            />
-            <Route path="/" element={<SiteMenu />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route
+            path="/projects/project/:projectId"
+            element={<ProjectDetail />}
+          />
+          <Route path="/" element={<SiteMenu />} />
+        </Routes>
       </Router>
     </div>
   );

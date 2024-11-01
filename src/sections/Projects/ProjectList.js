@@ -11,8 +11,8 @@ export const ProjectList = () => {
   }, []);
 
   return (
-    <div className="overflow-x-auto max-w-full p-4">
-      <div className="flex space-x-4">
+    <div className=" mx-20 p-4">
+      <div className="grid grid-rows-2 grid-flow-col gap-4">
         {projects.map((project) => (
           <div key={project.id} className="w-80 flex-shrink-0">
             <ProjectCard project={project} />

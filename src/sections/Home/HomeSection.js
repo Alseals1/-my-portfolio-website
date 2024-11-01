@@ -1,14 +1,17 @@
 import React from "react";
-import Intro from "./Intro";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const HomeSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-gray-200">
-      <img
-        src="/demoImage.png" // Use the relative path to the image in the public folder
-        alt=""
-        className="w-1/2 h-auto mt-4" // Adjust width, height, and margin as needed
-      />
+    <div className="flex flex-col items-center justify-center min-h-screen text-gray-200 mb-8">
+      <div className="flex justify-center items-center">
+        <DotLottieReact
+          src="./a1.json"
+          loop
+          autoplay
+          style={{ width: 300, height: 300 }}
+        />
+      </div>
       <p className="text-5xl font-bold mb-4">
         Welcome to My Digital Playground!
       </p>
@@ -19,7 +22,7 @@ const HomeSection = () => {
         a <strong className="text-red-500">showcase of my skills</strong>, a
         <strong className="text-red-500">celebration of my projects</strong>,
         and a{" "}
-        <strong className="text-red-500">platform to share my story</strong>
+        <strong className="text-red-500">platform to share my story</strong>{" "}
         with you, the audience.
       </p>
       <a

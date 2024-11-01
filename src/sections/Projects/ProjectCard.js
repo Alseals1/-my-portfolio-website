@@ -13,7 +13,9 @@ const ProjectCard = ({ project }) => {
         alt={`${project.title} logo`}
         className="h-32 w-full object-cover rounded-lg mb-4"
       />
-      <h3 className="text-xl font-bold mb-2 text-gray-300">{project.title}</h3>
+      <div className="text-xl font-bold mb-2 text-gray-300">
+        {project.title}
+      </div>
       <p className="text-gray-300 mx-4 mb-4">
         <Link
           to={`/projects/project/${project.id}`}
