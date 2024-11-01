@@ -16,10 +16,10 @@ const HomeSection = () => {
         In a world where innovation knows no bounds, I invite you to step into
         my journey—a thrilling adventure fueled by passion, creativity, and the
         relentless pursuit of knowledge. This is more than just a website; it’s
-        a <strong className="text-red-500">showcase of my skills</strong>, a{" "}
+        a <strong className="text-red-500">showcase of my skills</strong>, a
         <strong className="text-red-500">celebration of my projects</strong>,
         and a{" "}
-        <strong className="text-red-500">platform to share my story</strong>{" "}
+        <strong className="text-red-500">platform to share my story</strong>
         with you, the audience.
       </p>
       <a

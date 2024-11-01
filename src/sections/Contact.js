@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className=" text-gray-200 item-center" id="contact">
+    <div className=" text-gray-200 item-center" id="contact mb-8">
       <div
         className="flex flex-col items-center text-gray-200 p-8"
         id="contact"
@@ -25,7 +25,7 @@ const Contact = () => {
             <p className="bg-red-500 p-2 rounded-full">
               <i className="fas fa-envelope"></i>
             </p>
-            <span>Email: your-email@example.com</span>
+            <span>Email: 1seals.alandis@gmail.com</span>
           </a>
 
           <a
@@ -37,7 +37,7 @@ const Contact = () => {
             <span className="bg-red-500 p-2 rounded-full">
               <i className="fab fa-linkedin"></i>
             </span>
-            <span>LinkedIn</span>
+            <span> LinkedIn</span>
           </a>
 
           <a
