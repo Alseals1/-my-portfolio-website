@@ -29,8 +29,8 @@ const ProjectDetail = () => {
       <p className="mb-8">{project.fullDescription}</p>
 
       {/* First Row: Image on the right, text on the left */}
-      <div className="flex flex-col md:flex-row mb-8">
-        <div className="md:w-1/2 md:pr-4">
+      <div className="flex flex-col md:flex-row items-center justify-between mb-8">
+        <div className="md:w-1/2 md:pr-4 flex items-center">
           <p>{project.fullDescription}</p>
         </div>
         <div className="md:w-1/2">
@@ -43,7 +43,7 @@ const ProjectDetail = () => {
       </div>
 
       {/* Second Row: Image on the left, text on the right */}
-      <div className="flex flex-col md:flex-row mb-8">
+      <div className="flex flex-col md:flex-row items-center justify-between mb-8">
         <div className="md:w-1/2">
           <img
             src={project.images[1]}
@@ -51,14 +51,12 @@ const ProjectDetail = () => {
             className="w-full rounded-lg shadow-lg"
           />
         </div>
-        <div className="md:w-1/2 md:pl-4">
-          <p>{project.fullDescription}</p>
+        <div className="md:w-1/2 md:pl-4 flex items-center">
+          <p>{project.secondFullDescription}</p>
         </div>
       </div>
 
-      <div className="items-center w-full">
-        <ProjectList />
-      </div>
+      <div className="items-center w-full">{/* <ProjectList /> */}</div>
     </div>
   );
 };

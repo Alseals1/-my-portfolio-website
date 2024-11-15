@@ -5,6 +5,7 @@
     "logo": "/AWSImage.png",
     "shortDescription": "This is the description for project one...",
     "fullDescription": "Here is the full description of Project One...",
+    "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img1.jpg", "/img2.jpg"]
   },
   {
@@ -13,6 +14,7 @@
     "logo": "/iosdev.png",
     "shortDescription": "This is the description for project two...",
     "fullDescription": "Here is the full description of Project Two...",
+    "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img3.jpg", "/img4.jpg"]
   },
   {
@@ -21,6 +23,7 @@
     "logo": "/serverlessImage.png",
     "shortDescription": "This is the description for project Three...",
     "fullDescription": "Here is the full description of Project Three...",
+    "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
   },
   {
@@ -28,7 +31,7 @@
     "title": "Movement IOS App",
     "logo": "/movementImg.png",
     "shortDescription": "This is the description for project Three...",
-    "fullDescription": "Here is the full description of Project Three...",
+    "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
   },
   {
@@ -36,7 +39,8 @@
     "title": "Full Stack Website",
     "logo": "/FSImage.png",
     "shortDescription": "An overview of the role of a full stack developer.",
-    "fullDescription": "A full stack developer is a computer professional who builds and maintains both the front-end and back-end of a website or application. Front-end: The parts of a website that users see and interact with. Back-end: The behind-the-scenes data storage and processing. Full stack developers are responsible for the entire software lifecycle, from user interface design to database management. They can create entire web applications and ensure that all software works together seamlessly.",
-    "images": ["/img7.jpg", "/img8.jpg"]
+    "fullDescription": "Get the full and truthful history of Birmingham’s Civil Rights through the storytelling lens of youth justice leaders.",
+    "secondFullDescription": "Informed by galleries from the Birmingham Civil Rights Institute (BCRI), The Movement is a mobile app dedicated to sharing Birmingham's rich history through visual stories, audio interviews, and AR installations across the city.",
+    "images": ["/movementweb1.jpeg", "/movementwebtwo.png"]
   }
 ]

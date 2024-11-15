@@ -11,11 +11,11 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <div className="projects-section items-center justify-center mb-8">
-      <p className="text-3xl text-white font-bold mb-4 text-center">
+    <div className="projects-section items-center justify-center mb-8 px-4 sm:px-8">
+      <p className="text-2xl sm:text-3xl text-white font-bold mb-4 text-center">
         My Projects
       </p>
-      <p className="text-xl mb-6 mx-32 text-gray-500">
+      <p className="text-base sm:text-xl mb-6 mx-8 sm:mx-32 text-gray-500 text-center">
         Prepare to be inspired as I unveil a collection of projects that push
         boundaries and challenge the status quo. Here, you’ll find cutting-edge
         applications and innovative solutions designed not just to function but

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HomeSection from "./Home/HomeSection";
 import Projects from "./Projects/ProjectsSection";
-import Resume from "./Resume";
+import Experience from "./Experience";
 import Contact from "./Contact";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
   const sections = [
     { id: "home", name: "Home" },
     { id: "projects", name: "Projects" },
-    { id: "resume", name: "Resume" },
+    { id: "experience", name: "Experience" },
     { id: "contact", name: "Contact" },
   ];
 
@@ -69,8 +69,8 @@ const Navbar = () => {
           <Projects />
         </section>
 
-        <section id="resume">
-          <Resume />
+        <section id="experience">
+          <Experience />
         </section>
 
         <section id="contact">

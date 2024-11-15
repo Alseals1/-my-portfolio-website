@@ -7,19 +7,19 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="rounded-lg shadow-red-400 shadow-md ">
+    <div className="rounded-lg shadow-red-400 shadow-md overflow-hidden h-72 w-64 mx-auto bg-gray-800">
       <img
         src={project.logo}
         alt={`${project.title} logo`}
-        className="h-32 w-full object-cover rounded-lg mb-4"
+        className="h-36 w-full object-cover rounded-t-lg"
       />
-      <div className="text-xl font-bold mb-2 text-gray-300">
+      <div className="text-lg font-bold mt-4 mb-2 text-gray-300 px-4 text-center">
         {project.title}
       </div>
-      <p className="text-gray-300 mx-4 mb-4">
+      <p className="text-gray-400 mx-4 mb-4 text-center">
         <Link
           to={`/projects/project/${project.id}`}
-          className="text-red-500 px-10"
+          className="text-red-500 font-semibold"
           onClick={handleLearnMoreClick}
         >
           Learn more

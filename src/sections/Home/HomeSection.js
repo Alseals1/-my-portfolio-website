@@ -3,19 +3,20 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const HomeSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-gray-200 mb-8">
+    <div className="flex flex-col items-center justify-center min-h-screen text-gray-200 mb-8 px-4 sm:px-8">
       <div className="flex justify-center items-center">
         <DotLottieReact
           src="./a1.json"
           loop
           autoplay
-          style={{ width: 300, height: 300 }}
+          style={{ width: 250, height: 250 }}
+          className="sm:w-300 sm:h-300"
         />
       </div>
-      <p className="text-5xl font-bold mb-4">
+      <p className="text-3xl sm:text-5xl font-bold mb-4 text-center">
         Welcome to My Digital Playground!
       </p>
-      <p className="text-xl mb-6 mx-32 text-gray-500">
+      <p className="text-base sm:text-xl mb-6 mx-8 sm:mx-32 text-gray-500 text-center">
         In a world where innovation knows no bounds, I invite you to step into
         my journey—a thrilling adventure fueled by passion, creativity, and the
         relentless pursuit of knowledge. This is more than just a website; it’s
@@ -25,12 +26,21 @@ const HomeSection = () => {
         <strong className="text-red-500">platform to share my story</strong>{" "}
         with you, the audience.
       </p>
-      <a
-        href="#resume"
-        className="mt-6 bg-red-500 hover:bg-red-900 text-white font-bold py-2 px-4 rounded transition duration-300"
-      >
-        My Resume
-      </a>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#experience"
+          className="mt-4 sm:mt-6 bg-red-500 hover:bg-red-900 text-white font-bold py-2 px-4 rounded transition duration-300 text-center"
+        >
+          Experience
+        </a>
+        <a
+          href="/AlandisResumeNov2024.pdf"
+          className="mt-4 sm:mt-6 bg-red-500 hover:bg-red-900 text-white font-bold py-2 px-4 rounded transition duration-300 text-center"
+          download="Resume"
+        >
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 };
