@@ -11,7 +11,7 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <div className="projects-section items-center justify-center mb-8 px-4 sm:px-8">
+    <div className="projects-section items-center justify-center mb-8">
       <p className="text-2xl sm:text-3xl text-white font-bold mb-4 text-center">
         My Projects
       </p>

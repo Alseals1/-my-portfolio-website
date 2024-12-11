@@ -2,17 +2,19 @@
   {
     "id": 1,
     "title": "Static Website Host",
-    "logo": "/AWSImage.png",
+    "logo": "/S3pic2.png",
     "shortDescription": "This is the description for project one...",
-    "fullDescription": "Here is the full description of Project One...",
-    "secondFullDescription": "Here is the full description of Project Three...",
-    "images": ["/img1.jpg", "/img2.jpg"]
+    "detailDescriptionTitle": "Showcasing Innovation with AWS S3",
+    "fullDescription": "Amazon Simple Storage Service (Amazon S3) is a scalable, secure, and reliable cloud storage service designed to store and retrieve any amount of data from anywhere. It allows users to host static websites, securely manage data, and integrate seamlessly with other AWS services. With its cost-efficient pay-as-you-go model, S3 is perfect for applications ranging from data backup to web hosting.",
+    "secondFullDescription": "Amazon Simple Storage Service (Amazon S3) is a scalable, secure, and reliable cloud storage service designed to store and retrieve any amount of data from anywhere. It allows users to host static websites, securely manage data, and integrate seamlessly with other AWS services. With its cost-efficient pay-as-you-go model, S3 is perfect for applications ranging from data backup to web hosting.",
+    "images": ["/S3pic2.png", "/S3pic.png"]
   },
   {
     "id": 2,
     "title": "Cryptopedia IOS App",
     "logo": "/iosdev.png",
     "shortDescription": "This is the description for project two...",
+    "detailDescriptionTitle": "",
     "fullDescription": "Here is the full description of Project Two...",
     "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img3.jpg", "/img4.jpg"]
@@ -22,6 +24,7 @@
     "title": "Serverless To-Do",
     "logo": "/serverlessImage.png",
     "shortDescription": "This is the description for project Three...",
+    "detailDescriptionTitle": "",
     "fullDescription": "Here is the full description of Project Three...",
     "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
@@ -31,6 +34,7 @@
     "title": "Movement IOS App",
     "logo": "/movementImg.png",
     "shortDescription": "This is the description for project Three...",
+    "detailDescriptionTitle": "",
     "secondFullDescription": "Here is the full description of Project Three...",
     "images": ["/img5.jpg", "/img6.jpg"]
   },
@@ -39,6 +43,7 @@
     "title": "Full Stack Website",
     "logo": "/FSImage.png",
     "shortDescription": "An overview of the role of a full stack developer.",
+    "detailDescriptionTitle": "",
     "fullDescription": "Get the full and truthful history of Birmingham’s Civil Rights through the storytelling lens of youth justice leaders.",
     "secondFullDescription": "Informed by galleries from the Birmingham Civil Rights Institute (BCRI), The Movement is a mobile app dedicated to sharing Birmingham's rich history through visual stories, audio interviews, and AR installations across the city.",
     "images": ["/movementweb1.jpeg", "/movementwebtwo.png"]

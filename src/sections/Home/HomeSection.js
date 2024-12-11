@@ -1,18 +1,12 @@
 import React from "react";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const HomeSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-gray-200 mb-8 px-4 sm:px-8">
-      <div className="flex justify-center items-center">
-        <DotLottieReact
-          src="./a1.json"
-          loop
-          autoplay
-          style={{ width: 250, height: 250 }}
-          className="sm:w-300 sm:h-300"
-        />
-      </div>
+    <div
+      className="flex flex-col items-center justify-center min-h-screen text-gray-200
+                 "
+    >
+      <div className="flex justify-center items-center"></div>
       <p className="text-3xl sm:text-5xl font-bold mb-4 text-center">
         Welcome to My Digital Playground!
       </p>
@@ -20,7 +14,7 @@ const HomeSection = () => {
         In a world where innovation knows no bounds, I invite you to step into
         my journey—a thrilling adventure fueled by passion, creativity, and the
         relentless pursuit of knowledge. This is more than just a website; it’s
-        a <strong className="text-red-500">showcase of my skills</strong>, a
+        a <strong className="text-red-500">showcase of my skills</strong>, a{" "}
         <strong className="text-red-500">celebration of my projects</strong>,
         and a{" "}
         <strong className="text-red-500">platform to share my story</strong>{" "}

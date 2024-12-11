@@ -6,7 +6,7 @@ import ProjectDetail from "./sections/Projects/ProjectDetail";
 
 function App() {
   return (
-    <div className=" bg-black w-full">
+    <div className="App bg-black w-full">
       <Router>
         <Routes>
           <Route

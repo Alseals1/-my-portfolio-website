@@ -2,11 +2,11 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="text-gray-200 p-4 sm:p-8 mb-8">
+    <div className="text-gray-200 p-4 sm:p-8 ">
       <div className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6 text-center">
         Experience
       </div>
-      <div className="text-base sm:text-xl mb-4 sm:mb-6 mx-4 sm:mx-32 text-gray-500 text-center sm:text-left">
+      <div className="text-base sm:text-xl mb-4 sm:mb-6  text-gray-500 text-center sm:text-left">
         Imagine a place where technology and artistry collide—a stage where each
         project is a masterpiece and every skill is a stepping stone toward
         greatness. My mission? To{" "}
@@ -14,13 +14,13 @@ function Experience() {
         intricate realms of AWS to the dynamic world of iOS development and
         JavaScript. This is your front-row seat to witness the magic unfold.
       </div>
-      <div className="mx-4 sm:mx-60">
+      <div className="">
         {/* Summary */}
         <div className="mb-6 sm:mb-10">
-          <h3 className="text-xl sm:text-2xl font-semibold text-red-500 mb-2 italic text-center sm:text-left">
+          <h3 className="text-xl sm:text-2xl font-semibold text-red-500 mb-2 italic text-center sm:text-center ">
             Summary
           </h3>
-          <p className="text-center sm:text-left">
+          <p className="">
             <strong className="text-red-500">Dynamic and passionate</strong> iOS
             Developer with experience in mobile app development,{" "}
             <strong className="text-red-500">
@@ -33,7 +33,7 @@ function Experience() {
 
         {/* Professional Experience */}
         <div className="mb-6 sm:mb-10">
-          <h3 className="text-xl sm:text-2xl font-semibold text-red-500 mb-4 italic text-center sm:text-left">
+          <h3 className="text-xl sm:text-2xl font-semibold text-red-500 mb-4 italic text-center sm:text-center">
             Professional Experience
           </h3>
 
@@ -109,7 +109,7 @@ function Experience() {
 
         {/* Skills */}
         <div className="mb-6 sm:mb-10">
-          <div className="text-xl sm:text-2xl font-semibold text-red-500 mb-2 italic text-center sm:text-left">
+          <div className="text-xl sm:text-2xl font-semibold text-red-500 mb-2 italic text-center sm:text-center">
             Skills
           </div>
           <ul className="list-disc list-inside ml-4 sm:ml-6 text-sm sm:text-base">
