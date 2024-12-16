@@ -1,4 +1,5 @@
 import React from "react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const HomeSection = () => {
   return (
@@ -6,7 +7,6 @@ const HomeSection = () => {
       className="flex flex-col items-center justify-center min-h-screen text-gray-200
                  "
     >
-      <div className="flex justify-center items-center"></div>
       <p className="text-3xl sm:text-5xl font-bold mb-4 text-center">
         Welcome to My Digital Playground!
       </p>

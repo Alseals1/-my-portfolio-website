@@ -3,7 +3,6 @@ import HomeSection from "./Home/HomeSection";
 import Projects from "./Projects/ProjectsSection";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -37,12 +36,6 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex top-0">
-        <DotLottieReact
-          src="./a1.json"
-          loop
-          autoplay
-          style={{ width: 300, height: 300 }}
-        />
         {/* Left Vertical Navigation */}
         <nav className="fixed left-0 top-0 h-screen w-40 bg-transparent bg-red-600 text-gray-200 flex flex-col items-center justify-center space-y-16">
           {sections.map((section) => (
@@ -62,7 +55,7 @@ const Navbar = () => {
 
         {/* Main Content Area */}
 
-        <div className=" w-full pl-8">
+        <div className=" w-full pl-8 ml-24">
           <section id="home" className="relative">
             <HomeSection />
           </section>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ProjectList } from "./ProjectList";
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
@@ -21,8 +20,8 @@ const ProjectDetail = () => {
   if (!project) return <p>Loading...</p>;
 
   return (
-    <div className="text-gray-200 ">
-      <Link to="/" className="text-red-500 mb-4 block text-start">
+    <div className="text-gray-200">
+      <Link to="/" className="text-red-500 mb-4 block text-start pl-8 pt-8">
         ← Back to Home
       </Link>
       <h1 className="text-4xl font-bold mb-4">{project.title}</h1>
